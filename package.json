@@ -12,15 +12,29 @@
   "devDependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
+    "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "body-parser": "^1.15.2",
+    "client-sessions": "^0.7.0",
+    "cookie-parser": "^1.4.3",
     "http-server": "^0.9.0",
     "jsx-loader": "^0.13.2",
+    "mongoose": "^4.6.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-transform-hmr": "^1.0.4",
+    "reload": "^1.0.1",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.0"
   },
   "scripts": {
     "start": "npm run serve | npm run dev",
-    "serve": "./node_modules/.bin/http-server -p 8080",
+    "serve": "./node_modules/.bin/http-server -p 8081",
     "dev": "webpack-dev-server --progress --colors --port 8090"
   },
   "author": "dragonqiu",
